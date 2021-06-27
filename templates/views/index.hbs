@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>SS Construction</title>
+</head>
+
+<body>
+    {{!-- navbar start --}}
+    {{>navbar}}
+    {{!-- navbar end --}}
+
+    {{!-- Hero section start --}}
+    <div class="container-fluid mt-5">
+        <div class="row">
+            <div class="col-md-10 col-12 mx-auto">
+                <div class="row">
+                    <div
+                        class="col-md-6 col-12 hero-text order-md-0 order-1 d-flex justify-content-center align-items-start flex-column">
+                        <h1>WE WILL HELP YOU TO</h1>
+                        <h1>BUILD YOUR DREAM</h1>
+                        <P>We Are The Team of <span class="bold-style"> Professional's </span></P>
+                        {{!-- <button class="btn-style btn-primary">Read More</button> --}}
+                    </div>
+                    {{!-- Right side --}}
+                    <div class="col-md-6 col-12 hero-text order-md-1 order-0">
+                        <figure>
+                            <img src="images/construction.svg" alt="herosection_image">
+                        </figure>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    {{!-- Hero section ends --}}
+
+
+    {{!-- About us start --}}
+    {{>about}}
+    {{!-- About us ends --}}
+
+    {{!-- Our services start --}}
+    {{>services}}
+    {{!-- Our services ends --}}
+
+    {{!-- maps start --}}
+    {{!-- {{>maps}} --}}
+    {{!-- maps ends --}}
+
+    {{!-- contact us start --}}
+    {{>contact}}
+    {{!-- contact us ends --}}
+
+    {{>footer}}
+
+
+    <script src="../jq/jquery.js" type="text/javascript"></script>
+    <script src="../js/bootstrap.js" type="text/javascript"></script>
+</body>
+
+</html>
